@@ -64,6 +64,12 @@ Your network code as found in **Google Ad Manager > Admin > Global Settings**.
 
 Enable debug mode, when this is `true`, GPT console opens when the app loads.
 
+### disableInitScript
+
+- **Type**: `Boolean`
+- **Default**: `false`
+
+If enabled, GPT won't load the Initializer script. You should initalize service later.
 ### componentName
 
 - **Type**: `String`
